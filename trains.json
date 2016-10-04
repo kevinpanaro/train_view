@@ -1,0 +1,37 @@
+{
+  "train": [
+    {
+      "number": "200",
+      "times": [
+        "07:15",
+        "08:15"
+      ],
+      "scheduled_time": "07:26",
+      "start": "30th Street Station",
+      "stop": "Conshohocken",
+      "friendly_name": "Train to work, from school"
+    },
+    {
+      "number": "225",
+      "times": [
+        "16:45",
+        "17:45"
+      ],
+      "scheduled_time": "16:58",
+      "start": "Conshohocken",
+      "stop": "30th Street Station",
+      "friendly_name": "Train to school, from work"
+    },
+    {
+      "number": "583",
+      "times": [
+        "1:45",
+        "23:45"
+      ],
+      "scheduled_time": "16:58",
+      "start": "Overbrook",
+      "stop": "Devon",
+      "friendly_name": "blah"
+    }
+  ]
+}
