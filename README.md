@@ -1,6 +1,6 @@
 Septa Train View Notifier
 =
-*live update notifications send to you phone, run on a raspberry pi*
+*live update notifications sent to your phone, run on a raspberry pi*
 
 notifications are handled by [pushover](https://pushover.net/) which costs 5$ for 7500 notifications per month. (240-250 a day). You could probably set up twitter DMs, for free, or use pushbullet, but I liked pushover because it's pretty instant and reliable.
 
