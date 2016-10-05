@@ -12,3 +12,10 @@ TODO:
 - Clean up code in general, add a soft reset that removes live_trains.
 	- maybe add a live_trains directory cleaner (clean @ 3 AM)
 - Add logging (oops)
+- Clean trains.json to remove un-used items.
+
+FILES:
+- train\_view.py 				: main script. once the trains.json is setup with train number, notification times and pushove\_creds.
+- trains.json 					: the config file. number is the train number, times is the start (first) and end (second) times you want to be notified about the trains, start and stop locations are self explanitory, friendly\_name and scheduled\_time are deprecated.
+- pushover_creds.json.sample 	: token and user keys for pushover.
+- station\_id\_name.csv 			: Station ID (not used) and Station Name (how Septa will post it in their API) for each station. You have to use this spelling for your start/stop locations. trainview.septa.org uses different conventions, so it's important to use these. (Chestnut HE => Chestnut Hill East)
