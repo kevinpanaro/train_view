@@ -1,9 +1,6 @@
-import re
 from os import path, pardir, walk, remove, mkdir
-import json
-import requests
-from lxml import html
 from datetime import datetime
+import json
 import urllib2
 import httplib
 import urllib
